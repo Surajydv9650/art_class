@@ -24,18 +24,22 @@
 
 #hero-text-container p {
   font-size: 4vw; /* Relative size to keep text responsive */
+  margin-bottom: 0.5rem; /* Reduce gap between the paragraphs */
 }
 
 .hero-lead {
   font-size: 2.5vw;
+  margin-bottom: 0.2rem; /* Tighter spacing between leading text */
 }
 
 .hero-orange {
   color: rgb(230, 95, 61);
+  margin-bottom: 0.3rem; /* Reduce margin for a tighter look */
 }
 
 .hero-blue {
   color: rgb(50, 50, 203);
+  margin-bottom: 0.3rem; /* Consistent spacing */
 }
 
 #about-link {
@@ -52,7 +56,7 @@
   padding: 10px 20px;
   font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 40px;
+  margin-bottom: 20px; /* Reduce margin to fit better on small screens */
   transition: 0.6s;
   cursor: pointer;
   width: 165px;
@@ -74,12 +78,14 @@
   #hero-text-container {
     font-size: 3.5vw; /* Scale text size for smaller screens */
     padding: 10px; /* Add padding for better spacing */
+    margin-bottom: 10px; /* Ensure it doesn’t overlap */
   }
 
   #about-button {
-    padding: 12px;
+    padding: 8px 16px; /* Slightly smaller padding on mobile */
     font-size: 1rem;
     width: auto;
+    margin-bottom: 20px; /* Reduce margin for better fit */
   }
 
   #hero-image {
@@ -90,12 +96,12 @@
 /* Responsive Styles for Mobile Devices */
 @media (max-width: 576px) {
   #hero-text-container {
-    font-size: 4vw; /* Scale down further for smaller screens */
+    font-size: 3.8vw; /* Scale down further for smaller screens */
     padding: 5px;
   }
 
   #about-button {
-    padding: 8px;
+    padding: 8px 16px; /* Keep padding minimal */
     font-size: 0.9rem;
     width: auto;
   }

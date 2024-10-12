@@ -26,7 +26,7 @@ const Curriculam = () => {
 
       <div className="row featurette">
         <div className="col-md-7">
-          <h2 className="featurette-heading fw-normal lh-1">Junior Begineer(4-6 Years) <span className="text-body-secondary">Course Start With</span></h2>
+          <h2 className="featurette-heading fw-normal lh-1">Junior Begineer(4-8 Years) <span className="text-body-secondary">Course Start With</span></h2>
           <p className="lead">
             <ul>
               <li>Understanding of Lines and Pattern</li>
@@ -36,12 +36,12 @@ const Curriculam = () => {
             </ul>
             <h5>And Gradually Move to</h5>
             <ul>
-              <li>Colour study , Unidirectional colouring , Shading and Bleending</li>
+              <li>Colour Study ,Shading and Bleending</li>
               <li>Handling of Point , Brushes and Colours</li>
               <li>Study of Curve line object</li>
               <li>Motor Skill development Activity using form of Art</li>
             </ul>
-            <h5><span className="text-body-secondary">Course Duration : 1.5 Years</span><span className="text-body-secondary">No. Of Sessions: 120-130</span></h5>
+            <h5><span className="text-body-secondary">Course Duration : 1 Years </span><span className="text-body-secondary">No. Of Sessions: 96</span></h5>
           </p>
         </div>
         <div className="col-md-5">
@@ -59,20 +59,20 @@ const Curriculam = () => {
 
       <div className="row featurette">
         <div className="col-md-7 order-md-2">
-          <h2 className="featurette-heading fw-normal lh-1">Senior Seeker(8-11 Years) <span className="text-body-secondary">Course Start With</span></h2>
+          <h2 className="featurette-heading fw-normal lh-1">Junior Learner(9-15 Years) <span className="text-body-secondary">Course Start With</span></h2>
           <p className="lead">
             <h5>The Children is Ready to Learn these Things</h5>
             <ul>
               <li>Basics of pencil sketching and shading</li>
               <li>Basics of live object drawing</li>
-              <li>Basics of water colors, tips and techniques</li>
+              <li>Basics of water colours and Poster colours</li>
               <li>Still life drawing</li>
               <li>Composite drawing</li>
               <li>Styles of various art masters-art history</li>
-              <li>Basics of Acrylics, glass paints, color pencils, soft pastels, charcoal</li>
-              <li>Traditional art warli, Madhubani etc</li>
+              <li>Basics of glass paints, colour pencils, soft pastels</li>
+              <li>Traditional Art , Mahbubani Art etc</li>
             </ul>
-            <h5><span className="text-body-secondary">Course Duration : 1.5 Years </span><span className="text-body-secondary">No. Of Sessions: 120-130</span></h5>
+            <h5><span className="text-body-secondary">Course Duration : 1 Years </span><span className="text-body-secondary">No. Of Sessions: 96</span></h5>
           </p>
         </div>
         <div className="col-md-5 order-md-1">
@@ -90,27 +90,23 @@ const Curriculam = () => {
 
       <div className="row featurette">
         <div className="col-md-7">
-          <h2 className="featurette-heading fw-normal lh-1">Senior Expresser(11-14 Years) <span className="text-body-secondary">Course Start With</span></h2>
+          <h2 className="featurette-heading fw-normal lh-1">Senior Seeker(12-15 Years) <span className="text-body-secondary">Course Start With</span></h2>
           <p className="lead">
+            <h5>The Children is Ready to Learn these Things</h5>
             <ul>
-              <li>Understanding of Lines and Pattern</li>
-              <li>Understanding of Shapes and Form</li>
-              <li>Introduction to Abstract</li>
-              <li>Curved Line and Pattern </li>
+              <li>Basics Knowledge of Painting</li>
+              <li>Introduction of Mixed Media Arts</li>
+              <li>Introduction of Different type of Clay Arts</li>
+              <li>Traditional Art-Basic Worli,Mithila,Gond Arts</li>
+              <li>Advance Glass Painting , Acrylics , Color Pencil</li>
+              <li>Fabric Painting and Lippan Art</li>
             </ul>
-            <h5>And Gradually Move to</h5>
-            <ul>
-              <li>Colour study , Unidirectional colouring , Shading and Bleending</li>
-              <li>Handling of Point , Brushes and Colours</li>
-              <li>Study of Curve line object</li>
-              <li>Motor Skill development Activity using form of Art</li>
-            </ul>
-            <h5><span className="text-body-secondary">Course Duration : 3 Years </span><span className="text-body-secondary">No. Of Sessions: 250+</span></h5>
+            <h5><span className="text-body-secondary">Course Duration : 1 Years </span><span className="text-body-secondary">No. Of Sessions: 96</span></h5>
           </p>
         </div>
-        <div className="col-md-5">
+        <div className="col-md-5 order-md-1">
           <img
-            src={exp_std}
+            src={mod_std}  // Use the imported image variable here
             className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
             alt="Featurette"
             width="500"
@@ -120,6 +116,34 @@ const Curriculam = () => {
       </div>
 
       <hr className="featurette-divider" />
+
+      <div className="row featurette">
+        <div className="col-md-7 order-md-2">
+          <h2 className="featurette-heading fw-normal lh-1">Senior Expressors(16+ Years) <span className="text-body-secondary">Course Start With</span></h2>
+          <p className="lead">
+            <h5>Student have the enough Knowledge of Art</h5>
+            <ul>
+              <li>Different type of Canvas Painting</li>
+              <li>Pencil Shading with helo of Shading tools</li>
+              <li>Grid Knowledge</li>
+              <li>Soft Pastel Painting</li>
+              <li>Object Painting</li>
+              <li>Landscape Painting and Glass Painting</li>
+              <li>Ceremic Work and Lipan Art</li>
+            </ul>
+            <h5><span className="text-body-secondary">Course Duration : 1 Years </span><span className="text-body-secondary">No. Of Sessions: 96</span></h5>
+          </p>
+        </div>
+        <div className="col-md-5 order-md-1">
+          <img
+            src={mod_std}  // Use the imported image variable here
+            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            alt="Featurette"
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
     </main>
   );
 };

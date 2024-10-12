@@ -65,9 +65,9 @@ img {
     }
 
     /* Reduce padding for smaller screens */
-    .card {
+    /* .card {
         padding: 1.5rem;
-    }
+    } */
 
     /* Adjust breadcrumb margin */
     .breadcrumb {
