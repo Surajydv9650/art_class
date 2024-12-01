@@ -54,7 +54,7 @@ const features = [
   { title: "Clay Work", bgColor: "success", link: "/clay" },
   { title: "Ceramic Work", bgColor: "info", link: "/ceremic" },
   { title: "Glass Painting", bgColor: "warning", link: "/glass" },
-  { title: "Textile Arts", bgColor: "info", link: "/textile" },
+  { title: "Fabric Paint", bgColor: "info", link: "/textile" },
   { title: "Best Out of Waste", bgColor: "primary", link: "/waste" },
 ];
 

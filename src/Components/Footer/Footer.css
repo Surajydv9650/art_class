@@ -1,4 +1,148 @@
-/* Basic Styling */
+/* 
+#footer {
+  padding-top: 5rem;
+  background-color: #f8f9fa; 
+}
+
+#footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#comp{
+  display: flex;
+  flex-direction: column;
+}
+
+.col-lg-3, .col-lg-6 {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .col-lg-3, .col-lg-6 {
+      flex: 0 0 auto;
+      width: 50%;
+      max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-lg-3 {
+      width: 25%;
+      max-width: 25%;
+  }
+  .col-lg-6 {
+      width: 50%;
+      max-width: 50%;
+  }
+}
+
+
+h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  text-decoration: underline; 
+}
+
+.btn {
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-white {
+  background-color: white;
+  color: #333;
+}
+
+.btn-white:hover {
+  background-color: #e0e0e0; 
+}
+
+.list-inline-item {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .col-lg-3, .col-lg-6 {
+      width: 100%;
+      max-width: 100%;
+  }
+}
+
+#footer-bottom {
+  background-color: #f8f9fa; 
+  padding: 1rem 0;
+}
+
+#footer-divider {
+  margin: 2rem 0;
+  border: 0.5px solid #ddd; 
+}
+
+#copyright-section {
+  text-align: center;
+}
+
+#copyright-text {
+  margin: 0;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#links-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+#links-list li {
+  margin: 0 1rem;
+}
+
+.footer-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  #footer-links {
+      flex-direction: column;
+  }
+} */
+
+
+
+
+.social-logo {
+  width: 24px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
 #footer-logo {
     width: 60px;
   }
@@ -41,12 +185,11 @@
     color: #007bff;
   }
   
-  /* Footer Adjustments */
+ 
   #footer-logo {
     max-width: 150px;
   }
   
-  /* Responsive Design */
   #account_section, #about_section, #company_section {
     margin-bottom: 20px;
     text-align: center;
@@ -99,16 +242,23 @@
       width: 60px;
     }
   
-    #account_section, #about_section, #company_section {
+    #account_section, #company_section {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    #about_section{
       text-align: center;
       margin-bottom: 15px;
     }
   
     #account_links li,
-    #about_links li,
     #company_links li {
       padding: 5px 0;
     }
+    #about_links li{
+      padding: 5px 0;
+    }
+
   
     #footer_links {
       justify-content: center;
@@ -123,25 +273,23 @@
 
 
 
-  /* Footer Link Styles */
 #whole a {
-    color: #ffffff; /* Set link color to white */
-    text-decoration: none; /* Remove underline */
+    color: #ffffff; 
+    text-decoration: none; 
   }
   
   #whole a:hover {
-    color: #d1d0da; /* Optional: Change color on hover */
-    text-decoration: underline; /* Optional: Add underline on hover */
+    color: #d1d0da;
+    text-decoration: underline; 
   }
   
-  /* Additional styles if needed */
+  
   #dfclr a {
-    color: #ffffff; /* Ensure dfclr links are also white */
+    color: #ffffff; 
     text-decoration: none;
   }
   
   #dfclr a:hover {
-    color: #d1d0da; /* Optional: Change color on hover */
+    color: #d1d0da;
   }
-  
   
